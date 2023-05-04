@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/TestGitHub/TestGitHub"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 10
+    versioning-strategy: "auto"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    reviewers:
+      - "your-reviewer-username"
+    labels:
+      - "dependencies"
+      - "nuget"

@@ -4,11 +4,11 @@ on:
   push:
     branches: [ "main", "development-apikey" ]
   pull_request:
-    branches: [ "main", "development-apikey" ]
 
 jobs:
   validate_and_check_secrets:
     runs-on: ubuntu-latest
+    if: (github.ref == 'refs/heads/main') || (github.ref == 'refs/heads/development-apikey')
 
     steps:
       - name: Checkout repository

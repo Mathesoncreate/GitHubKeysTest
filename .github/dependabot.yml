@@ -1,7 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: "nuget"
-    directory: "/TestGitHub/TestGitHub"
+    directory: "GitHubCheckerTest/"
     schedule:
       interval: "daily"
     open-pull-requests-limit: 10

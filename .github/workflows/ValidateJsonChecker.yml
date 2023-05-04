@@ -2,9 +2,10 @@ name: "Validate and Check JSON files for Secrets"
 
 on:
   push:
-    branches: [ "main", "development-apikey" ]
   pull_request:
-
+branches: 
+- main
+- development-apikey
 jobs:
   validate_and_check_secrets:
     runs-on: ubuntu-latest

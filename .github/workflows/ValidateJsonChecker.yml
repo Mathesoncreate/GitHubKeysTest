@@ -29,7 +29,7 @@ jobs:
             fi
 
             echo "Checking $file for secrets"
-            if jq -e 'recurse | objects | select(has("key")) | .key | test($SECRET_PATTERN; "i")' --arg SECRET_PATTERN "$SECRET_PATTERN" "$file" > /dev/null; then
+            if jq -e 'to_entries[] | .key | test($SECRET_PATTERN; "i")' --arg SECRET_PATTERN "$SECRET_PATTERN" "$file" > /dev/null || jq -e 'recurse | objects | select(has("key")) | .key | test($SECRET_PATTERN; "i")' --arg SECRET_PATTERN "$SECRET_PATTERN" "$file" > /dev/null; then
               echo "::error::Potential secret key found in $file"
               exit 1
             fi

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "EDrvzeuxLj27m3Z0tjlUR2DHtVRjllSKUXliZ24Cq7whNZdbl6FAuW5baG4ExOfMKOcLT7PGdRZAkL6CLTCZYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kingstoa\\Projects R&D\\GitHubCheckerTest\\GitHubCheckerTest\\GitHubCheckerTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kingstoa\\.nuget\\packages\\devextreme.aspnet.data\\2.9.2\\devextreme.aspnet.data.2.9.2.nupkg.sha512",
+    "C:\\Users\\kingstoa\\.nuget\\packages\\microsoft.csharp\\4.4.0\\microsoft.csharp.4.4.0.nupkg.sha512",
+    "C:\\Users\\kingstoa\\.nuget\\packages\\moment.js\\2.29.4\\moment.js.2.29.4.nupkg.sha512",
+    "C:\\Users\\kingstoa\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

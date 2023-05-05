@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6SSuObkEyyzECioMcdiky53JimbnY0cAODKIoH5WxlEJ8IEZ3hmWv8Lml3USbm4zUi1TAjW267i98A52cmrAVQ==",
+  "dgSpecHash": "l3TXEvtolpSgpHbC6UZyaVGTw8ByHKmYhrG+At09AcF1WcR9kkIPX5hrghGfKUfUAXWJxAWrVk/4mY0p6Ujkyw==",
   "success": true,
-  "projectFilePath": "/Users/dsgdev1/Projects-R&D/GitHubKeysTest/GitHubCheckerTest/GitHubCheckerTest/GitHubCheckerTest.csproj",
+  "projectFilePath": "C:\\Users\\dev_admin1\\Source\\Repos\\Mathesoncreate\\GitHubKeysTest\\GitHubCheckerTest\\GitHubCheckerTest\\GitHubCheckerTest.csproj",
   "expectedPackageFiles": [
-    "/Users/dsgdev1/.nuget/packages/devextreme.aspnet.data/2.9.2/devextreme.aspnet.data.2.9.2.nupkg.sha512",
-    "/Users/dsgdev1/.nuget/packages/microsoft.csharp/4.4.0/microsoft.csharp.4.4.0.nupkg.sha512",
-    "/Users/dsgdev1/.nuget/packages/moment.js/2.29.4/moment.js.2.29.4.nupkg.sha512",
-    "/Users/dsgdev1/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512"
+    "C:\\Users\\dev_admin1\\.nuget\\packages\\devextreme.aspnet.data\\2.9.2\\devextreme.aspnet.data.2.9.2.nupkg.sha512",
+    "C:\\Users\\dev_admin1\\.nuget\\packages\\microsoft.csharp\\4.4.0\\microsoft.csharp.4.4.0.nupkg.sha512",
+    "C:\\Users\\dev_admin1\\.nuget\\packages\\moment.js\\2.29.4\\moment.js.2.29.4.nupkg.sha512",
+    "C:\\Users\\dev_admin1\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
   ],
   "logs": []
 }
